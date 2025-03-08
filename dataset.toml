@@ -1,11 +1,6 @@
 [[datasets]]
 enable_bucket = true
-resolution = [1024, 1024]
-bucket_reso_steps = 64
-max_bucket_reso = 2048
-min_bucket_reso = 128
-bucket_no_upscale = false
-batch_size = 3
+resolution = 1024
 random_crop = false
 shuffle_caption = false
 keep_tokens = 1
