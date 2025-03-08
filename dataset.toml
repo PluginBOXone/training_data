@@ -5,11 +5,13 @@ bucket_reso_steps = 64
 max_bucket_reso = 2048
 min_bucket_reso = 128
 bucket_no_upscale = false
-batch_size = 3
+batch_size = 1
 random_crop = false
 shuffle_caption = false
+keep_tokens = 1
 
   [[datasets.subsets]]
   image_dir = "/workspace/job_files/clean_data" 
   num_repeats = 3
   caption_extension = ".txt"
+  class_tokens = 'WIXBSAHA car'
