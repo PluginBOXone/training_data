@@ -7,6 +7,6 @@ keep_tokens = 0
 
   [[datasets.subsets]]
   image_dir = "/workspace/job_files/clean_data" 
-  num_repeats = 1
+  num_repeats = 5
   caption_extension = ".txt"
   class_tokens = 'WIXBSAHA car'
